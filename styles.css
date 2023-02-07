@@ -1,0 +1,108 @@
+/* Estilos del cuerpo y tags en general */
+.dual-plenum{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+ul li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    column-gap: 40px;
+    padding: 30px
+}
+.header a{
+    color: gray;
+}
+.header h1{
+    font-weight: bold;
+}
+/* Estilos de la barra de navegación*/
+.navbar{
+    text-align: center;
+    padding: 30px 0px 30px 40px;
+    background-color: rgb(247, 247, 247);
+}
+.navbar-grid{
+    align-items: center;
+    justify-items: center;
+    display: grid;
+    grid-auto-flow: column;
+}
+.navbar-grid-item{
+    width: 300px;
+    height: 200px;
+    display: flex;
+    border-radius: 50px;
+    border: 2px;
+    border-color: rgb(192, 192, 192);
+    background-color: white;
+    border-style: solid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.navbar-grid-item a{
+    color: gray;
+}
+.navbar-button{
+    display: flex;
+    color: white;
+    
+}
+.navbar ul li{
+    margin: 5px 0;
+}
+/* Estilos del botón parar regresar arriba */
+.up-button-a{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    margin: 0;
+    padding: 20px 20px 20px 20px;
+    background-color: rgb(52, 97, 165);
+    border-radius: 100px;
+    color: white;
+    top: 860px;
+    left: 1760px;
+    position: -webkit-sticky;
+    position: sticky;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 1000,
+  'GRAD' 0,
+  'opsz' 48
+}
+.up-button-a a{
+    text-decoration: none;
+    color: white;
+}
+/* Estilos del div tema */
+.tema{
+    padding: 30px 0px 30px 50px;
+}
+.tema-resources{
+    width: 100%;
+    max-width: 1800px;
+    border-bottom: 2px solid rgb(207, 207, 207);
+}
+.tema-resources a{
+    color: gray;
+}
+.tema ul li{
+    margin: 3px 0;
+}
+.tema h2{
+    font-weight: 600;
+}
