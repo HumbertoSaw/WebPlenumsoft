@@ -23,13 +23,29 @@ a{
 .header h1{
     font-weight: bold;
 }
+/* Estilos de la barra de navegación alterna*/
+.navbarAlt{
+    background-color: rgb(233, 233, 233);
+    padding: 30px 0px 30px 40px;
+}
+.navbarAlt ul li{
+    margin-bottom:5px;
+}
+.navbarAlt ul li a{
+    color: gray;
+}
 /* Estilos de la barra de navegación*/
-.navbar{
+.navbar{  
+    align-items: center;
+    justify-items: center;
     text-align: center;
     padding: 30px 0px 30px 40px;
     background-color: rgb(247, 247, 247);
 }
 .navbar-grid{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1400px;
     align-items: center;
     justify-items: center;
     display: grid;
@@ -69,7 +85,7 @@ a{
     height: 20px;
     margin: 0;
     padding: 20px 20px 20px 20px;
-    background-color: rgb(52, 97, 165);
+    background-color: rgb(78, 78, 78);
     border-radius: 100px;
     color: white;
     top: 860px;
@@ -90,7 +106,7 @@ a{
 }
 /* Estilos del div tema */
 .tema{
-    padding: 30px 0px 30px 50px;
+    padding: 10px 0px 30px 50px;
 }
 .tema-resources{
     width: 100%;
