@@ -122,3 +122,12 @@ a{
 .tema h2{
     font-weight: 600;
 }
+/* Estilos del formulario */
+.formulario{
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: 50px;
+    max-width: 800px;
+    width: 100%s;
+}
